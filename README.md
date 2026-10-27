@@ -1,5 +1,34 @@
 # ai.code.debugger
 
+> **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) (Google Developer Expert in Cloud & AI)  
+> **Focus:** Fast Python & Google Gemini Code Diagnostics, Bug Explanation & Patch Suggestion Utility
+
+---
+
+## 🎯 Why I Built ai.code.debugger — Lightweight Gemini Static Analyzer (Engineering Purpose & Real-World Value)
+
+### 1. 🔍 Fast, Minimalist Code Diagnostics
+I created `ai.code.debugger` as a lightweight, zero-bloat companion for inspecting buggy scripts, understanding stack traces, and generating clean refactored code using the Google Gemini API.
+
+### 2. 📖 Educational Line-by-Line Explanations
+Rather than returning an unexplained code block, my prompt architecture outputs a clear breakdown of *what* broke, *why* it broke, and *how* the patch prevents regressions.
+
+### 3. ⚡ Drop-In Extensibility
+Designed with a clean Python footprint that integrates into local scripts, notebooks, or CI pre-commit hooks.
+
+---
+
+## 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+    A["Buggy Source File + Traceback"] --> B["ai.code.debugger Parser"]
+    B --> C["Google Gemini Diagnostic Prompt"]
+    C --> D["Root-Cause Explanation"]
+    C --> E["Refactored & Patched Code"]
+```
+
+---
 
 ---
 
@@ -20,3 +49,22 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/RobinaMirbahar/RobinaMirbahar/main/ProfileImages/GithubBanner.svg" alt="Robina Mirbahar Banner" width="100%" />
 </div>
+
+<!-- AUTHOR_SIGNATURE_START -->
+---
+
+## 👩‍💻 About the Author
+
+**Robina Mirbahar — Google Cloud & AI Architect**  
+*Google Developer Expert (GDE) in Cloud & AI • Published Author • Multi-Agent Systems & Serverless GPU Builder*
+
+[![GitHub](https://img.shields.io/badge/GitHub-RobinaMirbahar-181717?style=for-the-badge&logo=github)](https://github.com/RobinaMirbahar)
+[![Medium](https://img.shields.io/badge/Medium-@robinamirbahar-000000?style=for-the-badge&logo=medium)](https://medium.com/@robinamirbahar)
+[![DEV.to](https://img.shields.io/badge/DEV.to-robinamirbahar-0A0A0A?style=for-the-badge&logo=devdotto)](https://dev.to/robinamirbahar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Robina_Mirbahar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/robina-mirbahar)
+[![GDE Profile](https://img.shields.io/badge/Google_Developer_Expert-Profile-4285F4?style=for-the-badge&logo=google)](https://g.dev/RobinaMirbahar)
+[![YouTube](https://img.shields.io/badge/YouTube-@RobinaMirbahar-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@RobinaMirbahar)
+[![X](https://img.shields.io/badge/X-@RobinaMirbahar-000000?style=for-the-badge&logo=x)](https://x.com/RobinaMirbahar)
+[![Amazon Author](https://img.shields.io/badge/Amazon_Book-Cloud_Computing_Voyage-FF9900?style=for-the-badge&logo=amazon)](https://www.amazon.com/dp/B0D146249R)
+
+<!-- AUTHOR_SIGNATURE_END -->
