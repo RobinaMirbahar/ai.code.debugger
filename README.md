@@ -1,7 +1,8 @@
 # ai.code.debugger
 
 > **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) ([Google Developer Expert in Cloud & AI](https://developers.google.com/profile/u/106918534005910641104?utm_campaign=deveco_gdemembers&utm_source=deveco) · Google Cloud Champion Innovator · Co-Author of [*AI Engineering*](https://www.amazon.com/dp/B0GWCZWCF4))  
-> **Focus:** Fast Python & Google Gemini Code Diagnostics, Bug Explanation & Patch Suggestion Utility
+> 📚 **Companion Repository:** [AI-CODE-DEBUGGER (RobinaMirbahar/AI-CODE-DEBUGGER)](https://github.com/RobinaMirbahar/AI-CODE-DEBUGGER)  
+> **Core Stack:** [Google Gemini API](https://ai.google.dev/gemini-api/docs?utm_campaign=deveco_gdemembers&utm_source=deveco), Python Code Diagnostics, Complexity Analysis, and Patch Suggestion.
 
 ---
 
